@@ -14,7 +14,7 @@ This repository contains Terraform code to provision the following resources in 
 ## Usage
 
 1. Clone the repository.
-2. Update the variables in `terraform/variables.tf` with your project details.
+2. Update the variables in `terraform/variables.tf` with the correct project details.
 3. Initialize Terraform:
 
 ```bash
