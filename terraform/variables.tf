@@ -9,3 +9,8 @@ variable "region" {
   type        = string
   default     = "us-central1"
 }
+
+variable "cloudrun_url" {
+  description = "URL of the CloudRun service"
+  type        = string
+}
