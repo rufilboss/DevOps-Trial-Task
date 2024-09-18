@@ -5,7 +5,7 @@ resource "google_cloud_run_service" "service" {
   template {
     spec {
       containers {
-        image = "gcr.io/${var.project_id}/container-image"  # container image
+        image = "gcr.io/${var.project_id}/hello-sample"  # container image
       }
     }
   }
