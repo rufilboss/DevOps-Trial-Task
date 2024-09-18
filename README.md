@@ -4,7 +4,7 @@ This repository contains Terraform code to provision the following resources in 
 
 - Cloud SQL (PostgreSQL) instance
 - CloudRun service
-- HTTP(S) Load Balancer
+- HTTP Load Balancer
 
 ## Folder Structure
 
