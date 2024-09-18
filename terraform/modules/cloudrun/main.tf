@@ -24,7 +24,7 @@ resource "google_cloud_run_service_iam_policy" "noauth" {
     {
       "role": "roles/run.invoker",
       "members": [
-        "devopsUser"
+        "allUsers"
       ]
     }
   ]

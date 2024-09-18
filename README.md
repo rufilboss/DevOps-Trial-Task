@@ -14,6 +14,11 @@ This repository contains Terraform code to provision the following resources in 
 ## Usage
 
 1. Clone the repository.
+
+```bash
+git clone git@github.com:rufilboss/DevOps-Trial-Task.git
+```
+
 2. Update the variables in `terraform/variables.tf` with the correct project details.
 3. Initialize Terraform:
 
