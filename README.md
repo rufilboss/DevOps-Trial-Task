@@ -21,8 +21,8 @@ This Terraform configuration uses modules to deploy resources for **RNS**:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yusadolat/rns-terraform-setup.git
-cd rns-terraform-setup
+git clone https://github.com/rufilboss/DevOps-Trial-Task
+cd DevOps-Trial-Task
 ```
 
 ### Initialize Terraform
@@ -48,7 +48,6 @@ cidr_block       = "10.0.0.0/16"
 ```
 
 ### Plan and Apply the Configuration
-
 
 It’s a good practice to run terraform plan to see what resources will be created.
 
